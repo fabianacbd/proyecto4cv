@@ -19,4 +19,3 @@ linkPage("#education", Cursos);
 linkPage("#aboutMe", AboutMe);
 linkPage("#contacto", Contact);
 
-document.querySelector("footer").innerHTML= Footer();
