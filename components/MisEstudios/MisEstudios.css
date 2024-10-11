@@ -1,0 +1,57 @@
+#cards {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+h3 {display: flex;
+    flex-direction: column;
+    height: 50px;
+    color: rgb(99, 10, 87);
+}
+
+h4 {
+    height: 0px;
+    display: flex;
+    color: rgb(99, 10, 87);
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+ #experience {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 280px;
+    margin-top: 120px;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(175, 85, 163);;
+    box-shadow: 9px 11px 41px 0px rgba(105,43,105,1);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+
+#experience:hover {
+    transform: scale(0.9);
+}
+
+#textedu {
+    width: 400px;
+}

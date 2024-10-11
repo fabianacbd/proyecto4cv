@@ -1,0 +1,68 @@
+#about {
+display: flex;
+flex-direction: row;
+gap: 30px;
+text-align: center;
+align-items: center;
+}
+
+@media (min-width: 800px) {
+    #about {
+      flex-direction: row-reverse;
+    }
+  }
+
+#avatar2 {
+    display: flex;
+    margin-top: 100px;
+    width: 550px;
+}
+
+
+
+
+#bienvenida {
+    margin-top: 130px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+#bienvenida p {
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    margin: 10px;
+}
+
+#bienvenida h3{
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+#bienvenida h2{
+    display: flex;
+    margin: 20px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    color: rgb(99, 10, 87);
+    justify-content: center;
+}
+
+#redes {
+display: flex;
+justify-content: space-around;
+gap: 1px;
+transition: all 0.5s ease-in-out;
+}
+
+#redes img {
+    width: 60px;
+}

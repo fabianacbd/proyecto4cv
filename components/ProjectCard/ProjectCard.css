@@ -1,0 +1,62 @@
+#project {   
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+   font-size: 25px;
+}
+
+#proyecto {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    background-color: rgb(175, 85, 163);;
+    box-shadow: 9px 11px 41px 0px rgba(105,43,105,1);
+    transition: transform 0.5s;
+}
+
+#proyecto:hover {
+    transform: scale(0.9);
+  }
+
+    
+#proyecto p {
+    width: 85%;
+    margin: 20px;
+}
+#proyecto a:hover {
+    color: rgb(255, 248, 248);
+  }
+
+#fotoproyectos {
+        width: 90%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+
+    #uele {
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+margin: 50px;
+    }
